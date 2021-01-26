@@ -1,0 +1,20 @@
+package dynamicPolymorphism;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		
+		Base b = new Base();
+		
+		b.m1();
+		b.m3();
+	//	b.m2();
+		
+		
+		Derived d = new Derived();
+		
+		d.m1();
+		d.m3();
+	    d.m2();
+	}
+}
