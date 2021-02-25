@@ -17,13 +17,18 @@ public class RetrievinDataWithEnumarator {
 		v1.addElement("Computer");
 		
 		
-	Enumeration em =	v1.elements();
-	
-	while (em.hasMoreElements()) {
-		 
-		System.out.println(em.nextElement());
+		Enumeration e = v1.elements();
 		
-	}
+		while (e.hasMoreElements()) {
+			System.out.println(e.nextElement());
+		}
+		
+		
+		// for each loop		
+		for (Object obj : v1) {
+			System.out.println(obj);
+		}
+		
 	
 
 	}

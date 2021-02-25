@@ -11,5 +11,7 @@ public class MyRunnableTest {
 		t1.setName("First Thread");
 		
 		t1.start();
+		
+		System.out.println(t1);
 	}
 }

@@ -14,6 +14,7 @@ public class HashSetSample {
 		h.add("Ameer");
 		h.add("Smith");
 		h.add("Smith");
+		
 		h.add(null);
 		h.add(null);
 		

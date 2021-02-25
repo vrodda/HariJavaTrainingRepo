@@ -19,17 +19,17 @@ public class RetrievingDataWithIterator {
 	
 		Iterator itr = l.iterator();
 		
+		System.out.println(l);
+		
 		while (itr.hasNext()) {
-			
-			String s1 = (String) itr.next();
-			
-			if ("Ajay".equals(s1)) {
+			String temp = (String) itr.next();
+			if("Ajay".equals(temp)) {
 				itr.remove();
 			}
-			
-			
+			System.out.println(temp);		
 		}
-System.out.println(l);
+		
+		System.out.println(l);
 		
 	}
 

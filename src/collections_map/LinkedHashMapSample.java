@@ -8,10 +8,11 @@ public class LinkedHashMapSample {
 		
 		LinkedHashMap m = new LinkedHashMap();
 		
+		m.put("Sanjay", 700);
 		m.put("Salman", 700);
 		m.put("Ameer", 800);
 		m.put("Sharukh", 700);
-		m.put("Sanjay", 700);
+		
 		
 		System.out.println(m);
 		
